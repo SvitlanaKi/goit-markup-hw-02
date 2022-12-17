@@ -156,6 +156,7 @@ body {
 .footer {
   background-color: var(--black-text--);
 }
+/*---Логотип------*/
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
