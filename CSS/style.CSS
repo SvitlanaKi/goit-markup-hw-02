@@ -11,7 +11,6 @@ body {
   color: var(--black-text--);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
-  font-weight: 400;
   font-size: 16px;
 }
 .list {
@@ -74,6 +73,9 @@ body {
   color: var(--gren-text--);
 }
 /*---------заголовок+кнопка------*/
+.section-first {
+  background-color: #2e2f42;
+}
 .main-first {
   font-weight: 700;
   font-size: 56px;
@@ -81,12 +83,12 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: #2e2f42;
 }
 
 .button-order {
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.18;
   align-items: center;
   text-align: center;
@@ -96,13 +98,26 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-.button-order :hover {
+.button-order:hover {
   background-color: #404bbf;
 }
-.button-order :focus {
+.button-order:focus {
   background-color: #404bbf;
 }
 /*---------стратегія------*/
+.advantages {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .main-index {
   font-weight: 700;
   font-size: 20px;
@@ -187,7 +202,9 @@ body {
   overflow: hidden;
 }
 .portfolio-button {
+  font-family: "Roboto";
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.5;
   align-items: center;
   text-align: center;
@@ -198,11 +215,11 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-.portfolio-buttons :hover {
+.portfolio-button:hover {
   background-color: var(--blue-text--);
   color: #e7e9fc;
 }
-.portfolio-buttons :focus {
+.portfolio-button:focus {
   background-color: var(--blue-text--);
   color: #e7e9fc;
 }
